@@ -25,7 +25,10 @@ public class Day1{
         //System.out.println("The sum of these Number is");
       //  System.out.println(Sum);
       // just experiment
-      boolean b1 = sc.hasNextInt();
-      System.out.println(b1);
+     // boolean b1 = sc.hasNextInt();
+      //System.out.println(b1);
+      System.out.println("Enter Number 1");
+      float c = sc.nextFloat();
+
     }
 }
