@@ -13,6 +13,20 @@ public class Exercise2{
         //decrypt
         //grade =(char)  (grade -8);
         //System.out.println(grade);
+        //Q3
+       // int a = sc.nextInt();
+        //System.out.println(a>8)
+        //Q4
+         //float v = 1;
+         //float u = 4;
+         //float a= 5;
+         //float s =3;
+         //float k =  (v*v-u*u) /(2*a*s);
+        //System.out.println(k);
+        //Q5
+        System.out.println(7*49/7+35/7);
+
+    
         
         
     }
