@@ -24,10 +24,6 @@ public class Exercise2{
          //float k =  (v*v-u*u) /(2*a*s);
         //System.out.println(k);
         //Q5
-        System.out.println(7*49/7+35/7);
-
-    
-        
-        
+        System.out.println(7*49/7+35/7);   
     }
 }
