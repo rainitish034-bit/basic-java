@@ -39,7 +39,7 @@ public class  Exercise4{
        System.out.println("the total tax paid by the employee is:" + tax);
        */
       //Q3
-     /* int day = sc.nextInt() ;
+      int day = sc.nextInt() ;
       switch (day) {
           case 1 -> System.out.println("monday");
           case 2 -> System.out.println("tuesday");
@@ -48,7 +48,7 @@ public class  Exercise4{
           case 5 -> System.out.println("friday");
           case 6 -> System.out.println("saturday");
           case 7 -> System.out.println("sunday");
-        }*/
+        }
        //Q5
        String website = sc.next();
        if(website.endsWith(".org")){
