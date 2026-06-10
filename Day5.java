@@ -1,8 +1,7 @@
-import java.lang.classfile.attribute.SourceIDAttribute;
-import java.util.Scanner;
+
 public class Day5{
     public static void main(String[] args) {
-        Scanner sc =new Scanner(System.in);
+      
        /* System.out.println("using loops");
         int i =1;
         while(i<=10){
@@ -56,11 +55,13 @@ public class Day5{
       // }
       for(int i=0; i<5;i++){
         System.out.println(i);
-        System.out.println("java is great");
+        //System.out.println("java is great");
         if(i==2){
             System.out.println("ending with the loop");
             continue;
         }
+                System.out.println("java is great");
+
        }
 
     }
