@@ -53,7 +53,7 @@ public class Day5{
            // break;
         //}
       // }
-      for(int i=0; i<5;i++){
+      /*for(int i=0; i<5;i++){
         System.out.println(i);
         //System.out.println("java is great");
         if(i==2){
@@ -63,6 +63,26 @@ public class Day5{
                 System.out.println("java is great");
 
        }
-
+      */
+     //Array
+     //three way to create array
+   //  int[] marks =new int[5];
+     /*int [] marks;
+     marks=new int[5];
+     marks[0] = 25;
+     marks[1] = 34;
+     marks[2] = 21;
+     marks[3] = 24;
+     marks[4] = 23;
+     System.out.println(marks[4]);
+    */
+    // int marks[] ={100,200,300,399,34};
+      //System.out.println(marks[4]);
+       int marks[] ={100,200,300,399,34};
+      //Displaying the Array (for loop)
+      System.out.println("printing using for loops");
+      for(int i=0;i<marks.length;i++){
+        System.out.println(marks[i]);
+      }
     }
 }
