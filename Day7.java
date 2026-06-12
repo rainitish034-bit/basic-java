@@ -26,7 +26,7 @@
        System.out.println(c1);
 
     }*/
-   static void foo() {
+   /*static void foo() {
        System.out.println("sood morning bro!");
    }
 
@@ -42,8 +42,8 @@
    }
    static void telljoke() {
        System.out.println("i invented a new word!\n" +"plagiarism");
-   }
-   public static void main(String[] args) {
+   }*/
+   //public static void main(String[] args) {
       // telljoke();
       //int[] marks={23,24,22,55,66,77};
       //Case 1: changing the integer
@@ -58,7 +58,35 @@
 
 
     // Method overloading
-       foo();
-       foo(50000);
-   }
- }
+     //  foo();
+       //foo(50000);
+
+      /* static int sum(int a, int b) {
+        return a+b;   
+       }*/
+      /*static int sum(int ...arr){
+         int result=0;
+         for(int a: arr){
+          result +=a;
+         }
+         return result;
+      }*/
+     // public static void main(String[] args) {
+    //System.out.println("The sum of 4 and 5 is: " + sum(4,5,4,6,8,9));
+    
+    
+    
+    
+    static int factorial(int n){
+     if(n==0 || n==1){
+      return 1;
+     }
+     else{
+      return n * factorial(n-1);
+     }
+    }
+          public static void main(String[] args) {
+              int n = 4;
+              System.out.println("The value of factorial n is:" + factorial(n));
+    }
+  }
