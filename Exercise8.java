@@ -55,6 +55,50 @@
     System.out.println("fireing the enemey");
   }
 }*/
+/*
+class cylender{
+    private int radius;
+        private  int height;
+
+    public int getRadius(){
+        return radius;
+    }
+    public  void setRedius(int radius){
+        this.radius = radius;
+    }
+    public int getHeight(){
+        return height;
+    }
+    public void setHeight(int height){
+      this .height = height;
+    }
+    public double  surfaceArea(){
+        return 2* 3.14* radius * radius + 2*3.14*radius*height;
+    }
+    public double volume(){
+        return  3.14* radius * radius *height;
+
+    }
+}*/
+class Rectangle{
+    private int length;
+    private int breadth;
+    public Rectangle(){
+        this.length=4;
+        this.breadth=5;
+    }
+    public Rectangle(int length,int breadth){
+        this.length=length;
+        this.breadth=breadth;
+    }
+    public int getlength(){
+        return length;
+    }
+    public int getBreadth(){
+        return breadth;
+    }
+
+}
 public class Exercise8{
     public static void main(String[] args) {
         /*
@@ -87,8 +131,22 @@ public class Exercise8{
    /*creat a class game which allow a user to play "guess the number "
    game once
    */
-   
-   
-   
+   //Q6
+   /*
+  cylender mycylinder = new cylender();
+   mycylinder.setHeight(12);
+   int h= mycylinder.getHeight();
+   System.out.println(h);
+   mycylinder.setRedius(9);
+   int r= mycylinder.getRadius();
+   System.out.println(r);
+   //Q2
+   System.out.println(mycylinder.surfaceArea());
+   System.out.println(mycylinder.volume());
+   */
+      Rectangle r = new Rectangle();
+      System.out.println(r.getlength());
+      System.out.println(r.getBreadth());
+
     }
 }
