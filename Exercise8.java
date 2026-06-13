@@ -1,4 +1,4 @@
-class Employee{
+/*class Employee{
     int salary;
     String name;
        
@@ -11,16 +11,16 @@ class Employee{
       public void  setName(String n){
            name = n;
       }
-}
-class Cellphone{
+}*/
+/*class Cellphone{
     public void ringing(){
         System.out.println("ringing");
     }
     public void vibrating(){
         System.out.println("vibrating");
     }
-}
-class Square{
+}*/
+/*class Square{
     int side;
     public int area(){
         return side*side;
@@ -28,8 +28,8 @@ class Square{
     public int perimeter(){
         return 4*side;
     }
-}
-class Rectangle{
+}*/
+/*class Rectangle{
     int length;
     int breadth;
     public void initializeDimension(int l, int b){
@@ -43,8 +43,8 @@ class Rectangle{
    public int calculateperimiter(){
     return 2* (length+breadth);
    }
-}
-class Tommy{
+}*/
+/*class Tommy{
   public  void hit(){
     System.out.println("hitting the enemey");
   }
@@ -54,7 +54,7 @@ class Tommy{
   public  void fire(){
     System.out.println("fireing the enemey");
   }
-}
+}*/
 public class Exercise8{
     public static void main(String[] args) {
         /*
@@ -70,19 +70,25 @@ public class Exercise8{
     vivo.vibrating();
     */
       //Q3
-      Square sq =new Square();
+     /* Square sq =new Square();
       sq.side = 4;
       System.out.println(sq.area());
-      System.out.println(sq.perimeter());
+      System.out.println(sq.perimeter());*/
     //Q4
-      Rectangle myRectangle = new Rectangle();
+     /* Rectangle myRectangle = new Rectangle();
       myRectangle.initializeDimension(6, 4);
       System.out.println(myRectangle.calculateArea());
-      System.out.println(myRectangle.calculateperimiter());
+      System.out.println(myRectangle.calculateperimiter());*/
     //Q5
-    Tommy player1 = new Tommy();
+   /* Tommy player1 = new Tommy();
     player1.fire();
     player1.hit();
-    player1.run();
+    player1.run();*/
+   /*creat a class game which allow a user to play "guess the number "
+   game once
+   */
+   
+   
+   
     }
 }
