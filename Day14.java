@@ -1,4 +1,6 @@
-import java.util.*;
+
+import java.util.Date;
+
 public class Day14{
     public static void main(String[] args) {
         //ARRAYLIST
@@ -55,12 +57,19 @@ public class Day14{
        System.out.println(ad1.getLast());
        */
       //HASHSET
-      HashSet<Integer> myHashSet = new  HashSet<>(6,0.5f);
+     /* HashSet<Integer> myHashSet = new  HashSet<>(6,0.5f);
       myHashSet.add(5);
       myHashSet.add(6);
       myHashSet.add(7);
       myHashSet.add(8);
       myHashSet.add(9);
       System.out.println(myHashSet);
+      */
+     // DATE AND TIME
+     //System.out.println(System.currentTimeMillis());
+     //System.out.println(Long.MAX_VALUE);
+     //System.out.println(System.currentTimeMillis());
+      Date d = new Date();
+      System.out.println(d);
     }
 }
