@@ -1,5 +1,7 @@
 
-import java.util.Date;
+import java.time.LocalDateTime;
+
+
 
 public class Day14{
     public static void main(String[] args) {
@@ -69,7 +71,15 @@ public class Day14{
      //System.out.println(System.currentTimeMillis());
      //System.out.println(Long.MAX_VALUE);
      //System.out.println(System.currentTimeMillis());
-      Date d = new Date();
+      //Date d = new Date();
+      //System.out.println(d);
+      //java time
+      /*LocalDate d= LocalDate.now();
       System.out.println(d);
+      LocalTime t = LocalTime.now();
+      System.out.println(t);
+      */
+      LocalDateTime dt = LocalDateTime.now();
+      System.out.println(dt);
     }
 }
