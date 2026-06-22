@@ -1,5 +1,5 @@
 
-public class Day5{
+public class Day5array{
     public static void main(String[] args) {
       
        /* System.out.println("using loops");
